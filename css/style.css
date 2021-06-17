@@ -13,8 +13,8 @@ body {
   font-family: "Heebo", sans-serif;
   background-color: #fff;
 }
-/*block_1*/
 
+/*block_1*/
 .block_1 {
   width: 100%;
   display: flex;
@@ -43,7 +43,7 @@ body {
 }
 
 .header_text:last-child {
-  margin-right: 0;
+  margin-right: 15px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -55,6 +55,7 @@ body {
     display: flex;
     flex-direction: row-reverse;
     padding: 16px 32px;
+    margin-bottom: 110px;
   }
 }
 
@@ -67,12 +68,17 @@ body {
   justify-content: space-between;
   align-content: center;
   align-items: center;
-  padding: 0 32px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
 .infoblock_1 {
   max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 25px;
 }
 
 .hitext {
@@ -93,16 +99,15 @@ body {
 
 .button {
   background: #ff6464;
-  border-radius: 2px;
+  border-radius: 7px;
+  width: 208px;
+  height: 47px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 29px;
-  border: 0;
-  color: #ffffff;
-}
-
-.infoblock_2 {
+  color: #fff;
+  border-color: #ff6464;
 }
 
 .img {
@@ -114,17 +119,22 @@ body {
 @media only screen and (max-width: 768px) {
   .infoblock {
     display: flex;
-    flex-direction: column;
-    margin-top: 80px;
+    flex-direction: column-reverse;
   }
   .img {
-    width: 45%;
-    height: 45%;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
   }
   .infoblock_1 {
     display: flex;
     flex-direction: column;
     align-content: center;
+    align-items: center;
+  }
+
+  .hitext,
+  .descrptext {
+    text-align: center;
   }
 }
