@@ -32,6 +32,8 @@ body {
 
 .menu {
   display: none;
+  position: relative;
+  z-index: 9;
 }
 
 .header_text {
