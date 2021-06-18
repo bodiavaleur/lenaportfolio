@@ -10,17 +10,28 @@
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
     <!--block_1-->
     <div class="block_1">
       <!--header-->
-      <div class="menu"><img src="image/menu.svg" alt="menu" /></div>
+      <div class="menu" id="menuButton">
+        <img class='open-menu' src="image/menu.svg" alt="menu" />
+        <div class="close-mobile-menu" id="closeMobile">X</div>
+      </div>
       <div class="header">
         <a href="" class="header_text">Works</a>
         <a href="" class="header_text">Blog</a>
         <a href="" class="header_text">Contact</a>
+      </div>
+
+      <div class="mobile-menu">
+        <div class="navigation">
+          <a href="#" class="navigation__link">Works</a>
+          <a href="#" class="navigation__link">Blog</a>
+          <a href="#" class="navigation__link">Contact</a>
+        </div>
       </div>
 
       <!--infoblock-->
@@ -35,7 +46,10 @@
             </div>
             <div class="infoblock_2"><img src="image/img.jpg" alt="img" class="img" /></div>
         </div>
-        
+
     </div>
+
+
+    <script src="js/index.js"></script>
   </body>
 </html>
