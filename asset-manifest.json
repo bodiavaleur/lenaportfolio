@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/lenaportfolio/static/css/main.b1e32803.chunk.css",
+    "main.js": "/lenaportfolio/static/js/main.0b46649b.chunk.js",
+    "main.js.map": "/lenaportfolio/static/js/main.0b46649b.chunk.js.map",
+    "runtime-main.js": "/lenaportfolio/static/js/runtime-main.4fdc4466.js",
+    "runtime-main.js.map": "/lenaportfolio/static/js/runtime-main.4fdc4466.js.map",
+    "static/js/2.460b46dc.chunk.js": "/lenaportfolio/static/js/2.460b46dc.chunk.js",
+    "static/js/2.460b46dc.chunk.js.map": "/lenaportfolio/static/js/2.460b46dc.chunk.js.map",
+    "index.html": "/lenaportfolio/index.html",
+    "static/css/main.b1e32803.chunk.css.map": "/lenaportfolio/static/css/main.b1e32803.chunk.css.map",
+    "static/js/2.460b46dc.chunk.js.LICENSE.txt": "/lenaportfolio/static/js/2.460b46dc.chunk.js.LICENSE.txt",
+    "static/media/img.0d6d27f7.jpg": "/lenaportfolio/static/media/img.0d6d27f7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4fdc4466.js",
+    "static/js/2.460b46dc.chunk.js",
+    "static/css/main.b1e32803.chunk.css",
+    "static/js/main.0b46649b.chunk.js"
+  ]
+}
