@@ -119,6 +119,14 @@ body {
   align-items: center;
 }
 
+.box {
+  max-width: 855px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
 .posts-header {
   display: flex;
   justify-content: space-between;
@@ -126,9 +134,8 @@ body {
   align-items: center;
   width: 100%;
   height: 60px;
-  max-width: 1200px;
-  padding: 0 30px;
-  margin: 30 0px;
+  max-width: 795px;
+  padding-right: 35px;
 }
 
 .posts-header-mobile {
@@ -141,7 +148,7 @@ body {
   width: 100%;
   max-width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   align-items: center;
   padding: 0 30px;
@@ -157,6 +164,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   padding: 25px;
+  margin-right: 28px;
 }
 
 .information-header {
@@ -170,6 +178,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
+  line-height: 60px;
 }
 
 .view {
