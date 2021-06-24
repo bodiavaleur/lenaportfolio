@@ -57,23 +57,5 @@
 @media only screen and (max-width: 475px) {
   .mobile-menu {
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 25px;
-  }
-
-  .navigation {
-    width: auto;
-    height: 400px;
-  }
-
-  .navigation__link {
-    font-size: 54px;
-  }
-
-  .navigation__link:hover {
-    font-size: 60px;
-    color: #ff6464;
   }
 }
