@@ -51,6 +51,12 @@
 @media only screen and (max-width: 768px) {
   .mobile-menu {
     width: 50%;
+    justify-content: flex-end;
+  }
+  .navigation {
+    margin-right: 65px;
+    margin-bottom: 235px;
+    align-items: flex-end;
   }
 }
 
