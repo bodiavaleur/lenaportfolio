@@ -20,5 +20,60 @@
   z-index: 8;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.navigation {
+  width: auto;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+}
+
+.navigation__link {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.navigation__link:link,
+:visited {
+  color: rgb(0, 0, 0);
+}
+
+.navigation__link:hover {
+  font-size: 30px;
+  color: #ff6464;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-menu {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .mobile-menu {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 25px;
+  }
+
+  .navigation {
+    width: auto;
+    height: 400px;
+  }
+
+  .navigation__link {
+    font-size: 54px;
+  }
+
+  .navigation__link:hover {
+    font-size: 60px;
+    color: #ff6464;
+  }
 }
