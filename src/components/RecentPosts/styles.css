@@ -24,7 +24,6 @@
   width: 100%;
   height: 60px;
   max-width: 795px;
-  padding-right: 35px;
 }
 
 .posts-header-mobile {
@@ -41,6 +40,7 @@
   align-content: center;
   align-items: center;
   padding: 0 30px;
+  gap: 25px;
 }
 
 .infomation-box {
@@ -76,6 +76,9 @@
   line-height: 23px;
   color: #00a8cc;
   text-decoration: none;
+  width: 129px;
+  height: 20px;
+  text-align: right;
 }
 
 .information-date {
