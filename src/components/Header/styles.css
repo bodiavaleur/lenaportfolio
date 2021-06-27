@@ -40,10 +40,3 @@
     display: none;
   }
 }
-
-@media only screen and (max-width: 475px) {
-  .burger-menu-open {
-    width: 100%;
-    align-content: flex-start;
-  }
-}

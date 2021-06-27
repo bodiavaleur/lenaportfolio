@@ -1,5 +1,4 @@
 .infoblock {
-  height: 500px;
   width: 100%;
   max-width: 1200px;
   display: flex;
@@ -17,6 +16,7 @@
   justify-content: flex-start;
   align-content: center;
   gap: 25px;
+  padding-bottom: 35px;
 }
 .infoimg {
   position: relative;

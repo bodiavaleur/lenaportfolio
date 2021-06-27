@@ -51,29 +51,17 @@
 @media only screen and (max-width: 768px) {
   .mobile-menu {
     width: 50%;
+    justify-content: flex-end;
+  }
+  .navigation {
+    margin-right: 65px;
+    margin-bottom: 235px;
+    align-items: flex-end;
   }
 }
 
 @media only screen and (max-width: 475px) {
   .mobile-menu {
     width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 25px;
-  }
-
-  .navigation {
-    width: auto;
-    height: 400px;
-  }
-
-  .navigation__link {
-    font-size: 54px;
-  }
-
-  .navigation__link:hover {
-    font-size: 60px;
-    color: #ff6464;
   }
 }

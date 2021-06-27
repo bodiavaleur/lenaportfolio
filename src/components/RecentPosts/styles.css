@@ -24,7 +24,6 @@
   width: 100%;
   height: 60px;
   max-width: 795px;
-  padding-right: 35px;
 }
 
 .posts-header-mobile {
@@ -41,19 +40,19 @@
   align-content: center;
   align-items: center;
   padding: 0 30px;
+  gap: 25px;
 }
 
 .infomation-box {
   background: #fff;
   box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
   border-radius: 4px;
-  width: 420px;
+  width: 100%;
   height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 25px;
-  margin-right: 28px;
 }
 
 .information-header {
@@ -77,6 +76,9 @@
   line-height: 23px;
   color: #00a8cc;
   text-decoration: none;
+  width: 129px;
+  height: 20px;
+  text-align: right;
 }
 
 .information-date {
@@ -96,6 +98,7 @@
   }
 
   .information {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -128,5 +131,14 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 23px;
+  }
+  .infomation-box {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .infomation-box {
+    width: 100%;
   }
 }
