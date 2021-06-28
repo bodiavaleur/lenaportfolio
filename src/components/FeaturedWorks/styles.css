@@ -1,0 +1,150 @@
+.block_3 {
+  width: 100%;
+  max-width: 1200px;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: flex-end;
+  align-items: center;
+}
+
+.featuredworks {
+  width: 100%;
+  max-width: 860px;
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0 30px;
+}
+
+.fwbox_1,
+.fwbox_2,
+.fwbox_3 {
+  width: 100%;
+  max-width: 800px;
+  height: 180px;
+  display: flex;
+  padding: 0 30px;
+  gap: 25px;
+}
+
+.imgDesign {
+  width: 245px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+.fwhead {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  padding-left: 30px;
+}
+
+.fwhead_box {
+  width: 100%;
+  max-width: 860px;
+  display: flex;
+  align-content: flex-start;
+  margin: 20px 0;
+  padding: 0 30px;
+}
+
+.Designing_Dashboards,
+.Days,
+.Vibrant_Portraits {
+  width: 100%;
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fwdate {
+  display: inline-block;
+  background: #142850;
+  color: #fff;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.fwheader {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  color: #21243d;
+}
+
+.fwtext {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #21243d;
+}
+
+.fwname {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #8695a4;
+}
+
+@media only screen and (max-width: 768px) {
+  .block_3 {
+    width: 100%;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featuredworks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .fwbox_2,
+  .fwbox_3 {
+    display: none;
+  }
+
+  .fwbox_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    height: 455px;
+  }
+
+  .imgDesign {
+    width: 340px;
+    height: 230px;
+  }
+
+  .Designing_Dashboards {
+    width: 340px;
+  }
+
+  .fwhead_box {
+    max-width: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fwhead {
+    padding: 0;
+  }
+}
