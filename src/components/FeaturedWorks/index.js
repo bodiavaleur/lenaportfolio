@@ -11,7 +11,7 @@ function FeaturedWorks(props) {
         <h2 className="fwhead">Featured works</h2>
       </div>
       <div className="featuredworks">
-        <div className="fwbox_1">
+        <div className="fwbox">
           <div className="featureimg">
             <img
               src={photo1}
@@ -32,7 +32,7 @@ function FeaturedWorks(props) {
           </div>
         </div>
 
-        <div className="fwbox_2">
+        <div className="fwbox">
           <div className="featureimg">
             <img src={photo2} alt="Vibrant Portraits" className="imgDesign" />
           </div>
@@ -49,7 +49,7 @@ function FeaturedWorks(props) {
           </div>
         </div>
 
-        <div className="fwbox_3">
+        <div className="fwbox">
           <div className="featureimg">
             <img src={photo3} alt="36 Days" className="imgDesign" />
           </div>
