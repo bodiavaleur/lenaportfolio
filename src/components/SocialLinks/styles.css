@@ -1,11 +1,9 @@
 .social-footer {
   width: 100%;
-  max-width: 1200px;
   height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: flex-end;
   align-items: center;
   margin-top: 80px;
 }
