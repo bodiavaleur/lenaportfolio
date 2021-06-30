@@ -1,0 +1,30 @@
+.social-footer {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.logo-link {
+  margin-bottom: 25px;
+  width: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #21243d;
+}
