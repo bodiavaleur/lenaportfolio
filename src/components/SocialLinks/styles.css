@@ -28,3 +28,17 @@
   text-align: center;
   color: #21243d;
 }
+@media only screen and (max-width: 475px) {
+  .logo-link {
+    width: 150px;
+  }
+
+  .social-logo {
+    width: 15px;
+    height: 15px;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+}

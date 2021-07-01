@@ -116,6 +116,7 @@
     flex-direction: column;
     align-items: center;
     min-height: 425px;
+    height: 450px;
   }
 
   .imgDesign {
@@ -142,8 +143,46 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 475px) {
   .fwbox {
-    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imgDesign {
+    width: 230px;
+    height: 150px;
+  }
+
+  .Designing_Dashboards,
+  .Days,
+  .Vibrant_Portraits {
+    text-align: center;
+  }
+
+  .fwhead_box {
+    max-width: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .fwheader,
+  .fwhead {
+    font-size: 22px;
+  }
+
+  .fwdate {
+    font-size: 8px;
+    width: 25px;
+    height: 12px;
+  }
+
+  .fwname,
+  .fwtext {
+    font-size: 14px;
   }
 }
