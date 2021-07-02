@@ -46,6 +46,7 @@
   display: flex;
   align-content: flex-start;
   margin: 20px 0;
+  padding-left: 10px;
 }
 
 .Designing_Dashboards,
@@ -136,6 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
   }
 
   .fwhead {
@@ -149,17 +151,26 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: auto;
   }
 
+  .featureimg {
+    width: 100%;
+  }
   .imgDesign {
-    width: 230px;
-    height: 150px;
+    max-width: 100%;
+    height: auto;
   }
 
   .Designing_Dashboards,
   .Days,
   .Vibrant_Portraits {
-    text-align: center;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .fwhead_box {
