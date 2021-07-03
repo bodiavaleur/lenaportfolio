@@ -14,6 +14,7 @@
   flex-direction: column;
   align-content: center;
   align-items: center;
+  padding: 0 10px;
 }
 
 .posts-header {
@@ -137,7 +138,48 @@
 }
 
 @media only screen and (max-width: 475px) {
-  .infomation-box {
+  .block_2 {
     width: 100%;
+    max-height: 900px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+  }
+
+  .posts-header {
+    display: none;
+  }
+
+  .posts-header-mobile {
+    display: flex;
+  }
+
+  .information_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 60px;
+  }
+
+  .information_date,
+  .descrpinformation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 23px;
+  }
+
+  .infomation-box {
+    height: 100%;
   }
 }
