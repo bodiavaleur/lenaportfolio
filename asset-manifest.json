@@ -1,21 +1,28 @@
 {
   "files": {
-    "main.css": "/lenaportfolio/static/css/main.b1e32803.chunk.css",
-    "main.js": "/lenaportfolio/static/js/main.0b46649b.chunk.js",
-    "main.js.map": "/lenaportfolio/static/js/main.0b46649b.chunk.js.map",
+    "main.css": "/lenaportfolio/static/css/main.e8ce7837.chunk.css",
+    "main.js": "/lenaportfolio/static/js/main.8fcdffcc.chunk.js",
+    "main.js.map": "/lenaportfolio/static/js/main.8fcdffcc.chunk.js.map",
     "runtime-main.js": "/lenaportfolio/static/js/runtime-main.4fdc4466.js",
     "runtime-main.js.map": "/lenaportfolio/static/js/runtime-main.4fdc4466.js.map",
-    "static/js/2.460b46dc.chunk.js": "/lenaportfolio/static/js/2.460b46dc.chunk.js",
-    "static/js/2.460b46dc.chunk.js.map": "/lenaportfolio/static/js/2.460b46dc.chunk.js.map",
+    "static/js/2.83fdcce7.chunk.js": "/lenaportfolio/static/js/2.83fdcce7.chunk.js",
+    "static/js/2.83fdcce7.chunk.js.map": "/lenaportfolio/static/js/2.83fdcce7.chunk.js.map",
     "index.html": "/lenaportfolio/index.html",
-    "static/css/main.b1e32803.chunk.css.map": "/lenaportfolio/static/css/main.b1e32803.chunk.css.map",
-    "static/js/2.460b46dc.chunk.js.LICENSE.txt": "/lenaportfolio/static/js/2.460b46dc.chunk.js.LICENSE.txt",
-    "static/media/img.0d6d27f7.jpg": "/lenaportfolio/static/media/img.0d6d27f7.jpg"
+    "static/css/main.e8ce7837.chunk.css.map": "/lenaportfolio/static/css/main.e8ce7837.chunk.css.map",
+    "static/js/2.83fdcce7.chunk.js.LICENSE.txt": "/lenaportfolio/static/js/2.83fdcce7.chunk.js.LICENSE.txt",
+    "static/media/36 Days.3f611be4.jpg": "/lenaportfolio/static/media/36 Days.3f611be4.jpg",
+    "static/media/Designing Dashboards.1141531d.jpg": "/lenaportfolio/static/media/Designing Dashboards.1141531d.jpg",
+    "static/media/Vibrant Portraits.f93a5b8e.jpg": "/lenaportfolio/static/media/Vibrant Portraits.f93a5b8e.jpg",
+    "static/media/fb.09acd56d.svg": "/lenaportfolio/static/media/fb.09acd56d.svg",
+    "static/media/ig.09bb8f2e.svg": "/lenaportfolio/static/media/ig.09bb8f2e.svg",
+    "static/media/img.0d6d27f7.jpg": "/lenaportfolio/static/media/img.0d6d27f7.jpg",
+    "static/media/in.05ad1948.svg": "/lenaportfolio/static/media/in.05ad1948.svg",
+    "static/media/tw.a32db65d.svg": "/lenaportfolio/static/media/tw.a32db65d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4fdc4466.js",
-    "static/js/2.460b46dc.chunk.js",
-    "static/css/main.b1e32803.chunk.css",
-    "static/js/main.0b46649b.chunk.js"
+    "static/js/2.83fdcce7.chunk.js",
+    "static/css/main.e8ce7837.chunk.css",
+    "static/js/main.8fcdffcc.chunk.js"
   ]
 }
