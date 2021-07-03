@@ -192,6 +192,11 @@
     height: 12px;
   }
 
+  .fwname {
+    display: flex;
+    align-items: center;
+  }
+
   .fwname,
   .fwtext {
     font-size: 14px;
